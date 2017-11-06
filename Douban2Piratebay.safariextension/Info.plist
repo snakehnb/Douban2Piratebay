@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>snakehnb</string>
+	<key>Builder Version</key>
+	<string>13604.1.38.1.6</string>
+	<key>CFBundleDisplayName</key>
+	<string>Douban2Piratebay</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.snakehnb.douban2piratebay</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>inject.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>https://movie.douban.com/subject/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>And direct link to piratebay from douban movie page.</string>
+	<key>DeveloperIdentifier</key>
+	<string>H928TRDW84</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/snakehnb/Douban2Piratebay</string>
+</dict>
+</plist>
